@@ -1,0 +1,309 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+   <meta charset="utf-8">
+   <link rel="stylesheet" href="link rel=" preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link
+      href="https://fonts.googleapis.com/css2?family=Courgette&family=Josefin+Sans&family=Nanum+Gothic&family=Sacramento&display=swap"
+      rel="stylesheet">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <title>Hjemmeside</title>
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+   <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous"> -->
+   <link rel="stylesheet" href="./css/main.css">
+   <script defer src="https://kit.fontawesome.com/be16f163fe.js" crossorigin="anonymous"></script>
+   <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+   <script type="module" src="./js/index.js"></script>
+</head>
+
+<body>
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+      crossorigin="anonymous"></script>
+
+   <!-- Navbar -->
+   <nav class="navbar navbar-expand-md sticky-top bg-dark">
+      <div class="container-fluid">
+         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+         </button>
+         <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
+            <div class="navbar-nav">
+               <ul class="nav nav-pills">
+                  <li><a class="nav-link" href="#Forside">Forside <i class="fas fa-home me-3"></i></a></li>
+                  <li><a class="nav-link" href="#ferdigheter">Ferdigheter <i class="fa-solid fa-code"></i></a>
+                  </li>
+                  <li><a class="nav-link" href="#Arbeidserfaringer">Arbeidserfaring <i
+                           class="fa-solid fa-briefcase"></i></a>
+                  </li>
+                  <li><a class="nav-link" href="#Utdanninger">Utdanninger <i
+                           class="fa-solid fa-building-columns"></i></a>
+                  </li>
+               </ul>
+            </div>
+         </div>
+      </div>
+   </nav>
+
+   <!-- endrer på .active class i navbaren -->
+   <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -40%"
+      data-bs-smooth-scroll="true" class="scrollspy-example rounded-2" tabindex="0">
+
+      <!-- Forsiden til nettsiden meg bilde -->
+      <section id="forside"
+         style="background-image: url('/img/pexels-stephan-seeber-1261728.jpg'); background-size: cover;">
+         <div id="Forside">
+            <div class="container-fluid" id="container-fluid">
+               <div class="row">
+                  <div class="col-lg-8 col-md-8 col-sml-12">
+                     <div class="forside">
+                        <!-- Navn og litt informasjon om meg-->
+                        <h1 class="overskrift">Benjamin Pedersen</h1>
+                        <p>Hei, jeg heter Benjamin og går på Glemmen VGS.</p>
+                        <p>Jeg ble født 3. Oktober 2006 og nå bor jeg i Frerikstad.</p>
+                     </div>
+                  </div>
+                  <!-- Forside bilde av meg -->
+                  <div class="col-lg-4 col-md-4 col-sml-12">
+                     <div class="Forside-bilde"><img class="benjamin" src="./img/meg-modified.png" alt="">
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <hr><br><br><br><br><br>
+      </section>
+
+      <!-- Her står det litt om ferdigheter -->
+      <div class="skills" id="ferdigheter">
+         <!-- Overskrift -->
+         <h1 class="Ferdigheter-heading">Ferdigheter</h1>
+         <!-- Lager øverste rad med den første ferdigheten -->
+         <div class="skill-row">
+            <!-- Legger til et ikon for illustrasjon av ferdigheten -->
+            <a class="icon-link" href="https://www.flaticon.com/free-icons/graphic-design"
+               title="graphic design icons"><img class="code-image" src="./img/coding.png" alt=""></a>
+            <h3>Web utvikling</h3>
+            <p>Jeg er en elev på Glemmen vidregående skole. Jeg går på linjen Informasjonsteknologi og
+               medieproduksjon. Her
+               lærer vi blant annent å bruke html og css til å lage en nettside.</p>
+         </div>
+         <!-- Andre rad med den andre ferdigheten -->
+         <div class="skill-row">
+            <!-- Legger til et ikon for illustrasjon av ferdigheten -->
+            <a class="icon-link" href="https://www.flaticon.com/free-icons/graphic-design"
+               title="graphic design icons"><img class="code-image-2" src="./img/web-design.png" alt="grafisk design"></a>
+            <h3>Grafisk design</h3>
+            <p>Jeg kan lage blant annet designe visittkort og apper med illustartor og jeg kan redigere bilder i
+               lightroom
+               og
+               photoshop. </p>
+            <hr>
+         </div>
+      </div>
+
+      <!-- Arbeidserfaring -->
+      <div class="Arbeidserfaring">
+         <h1 id="Arbeidserfaringer" class="h1-arbeidserfaring">Arbeidserfaringer</h1>
+         <hr class="hr-arbeidserfaringer">
+         <br>
+         <div class="erfaring-liste">
+            <div class="accordion accordion-flush" id="accordionFlushExample">
+               <!-- Lager en dropdown meny for når jeg jobbet i barnehage -->
+               <div class="accordion-item">
+                  <h2 class="accordion-header" id="flush-headingOne">
+                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                        Barnehage
+                     </button>
+                  </h2>
+                  <!-- Lager informasjonsboksen som dukker opp når man trykker på "barnehage" -->
+                  <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
+                     data-bs-parent="#accordionFlushExample">
+                     <div class="accordion-body">
+                        <p>Jeg har jobbet i en barnehage i 2 dager, der arbeidsoppgavene mine var å passe på
+                           barna og smøre
+                           brødskiver til dem.</p>
+                     </div>
+                  </div>
+               </div>
+               <!-- Lager en dropdown meny for når jeg var trivselsleder -->
+               <div class="accordion-item">
+                  <h2 class="accordion-header" id="flush-headingTwo">
+                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                        Trivselsleder
+                     </button>
+                  </h2>
+                  <!-- Lager informasjonsboksen som dukker opp når man trykker på "trivselsleder" -->
+                  <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo"
+                     data-bs-parent="#accordionFlushExample">
+                     <div class="accordion-body">
+                        <p>Jeg var trivselsleder i 7. klasse på barneskolen, der var oppgaven min å passe på at
+                           alle hadde det
+                           bra
+                           i friminuttene og jeg var med på møter. På møtene snakket vi om hva skolen kunne
+                           gjøre bedre for at
+                           alle
+                           skal trives.</p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <br><br><br>
+      </div>
+      <hr>
+      <section class="Utdanninger" id="Utdanninger">
+         <!-- Her skriver jeg litt om mine planer og ambisjoner -->
+         <div class="Planer">
+            <h1>Planer og Ambisjoner</h1>
+            <p>Jeg går på Informasjonsteknologi og medieproduksjon linjen på glemmen, og så langt tenker jeg at jeg
+               skal gå
+               IT
+               til neste år. Jeg er ikke 100% sikker på hva jeg skal bli enda, og har ikke noen veldig store
+               ambisjoner enda.
+               Jeg
+               vet bare at jeg skal gå IT, men det er er heldigvis fortsatt tid til å bli helt sikker på hva jeg
+               skal bli.
+            </p>
+         </div>
+         <hr class="hr-utdanning">
+         <!-- Overskrift til utdanning tabellen -->
+         <div class="utdanning-div">
+            <h1>Utdanninger</h1>
+         </div>
+         <div class="utdanning-liste">
+            <!-- Lagde en table som viser utdanningene mine -->
+            <table class="table">
+               <!-- Her lager jeg headen til tabellen med år-skole-utdanning -->
+               <thead>
+                  <tr>
+                     <th scope="col">År</th>
+                     <th scope="col">Skole</th>
+                     <th scope="col">Utdanning</th>
+                  </tr>
+               </thead>
+               <!-- I bodyen står det informasjon om når, hvor og hvilke utdanning jeg har- -->
+               <tbody>
+
+                  <tr>
+                     <td>2022-2022</td>
+                     <td><a href="https://viken.no/glemmen-vgs/" target="_blank">Glemmen VGS</a></td>
+                     <td>Informasjonsteknologi og Medieproduksjon</td>
+                  </tr>
+                  <tr>
+                     <td>2019-2022</td>
+                     <td><a href="https://www.fredrikstad.kommune.no/skoler/borge-uskole/" target="_blank">Borge
+                           Ungdommsskole</a></td>
+                     <td>Grunnskole</td>
+                  </tr>
+                  <tr>
+                     <td>2017-2019</td>
+                     <td><a href="https://www.fredrikstad.kommune.no/skoler/sagabakken-skole/"
+                           target="_blank">Sagabakken
+                           Barneskole</a></td>
+                     <td>Grunnskole</td>
+                  </tr>
+                  <tr>
+                     <td>2012-2017</td>
+                     <td><a href="https://www.lillestrom.kommune.no/skole-og-utdanning/skoler-og-skolegrenser/skolene-i-lillestrom/sten-tarud-skole/"
+                           target="_blank">Sten-Tærud
+                           Barneskole</a></td>
+                     <td>Grunnskole</td>
+                  </tr>
+               </tbody>
+            </table>
+         </div>
+      </section>
+   </div>
+
+   <!-- Footer -->
+   <footer class="text-center text-lg-start bg-dark text-light">
+      <!-- Section: Social media -->
+      <section class="d-flex justify-content-center justify-content-lg-between p-3 border-bottom">
+         <!-- Her lager jeg venstre siden i den øverste raden -->
+         <div class="me-5 d-none d-lg-block">
+            <span>Sosialt:</span>
+         </div>
+
+         <!-- Her lager jeg høyre siden i øverste raden på footer -->
+         <div id="socialIcons">
+            <!-- setter in symboler med anchor tag for sisiale medier -->
+            <p>
+               <a href="https://www.facebook.com/benjamin.pedersen.9275" target="_blank" class="me-4 text-reset">
+                  <i class="fa fa-facebook"></i>
+               </a>
+            </p>
+            <p>
+               <a href="https://github.com/benjaminsjp" target="_blank" class="me-4 text-reset">
+                  <i class="fa-brands fa-github"></i>
+               </a>
+            </p>
+            <p>
+               <a href="https://www.linkedin.com/in/benjamin-pedersen-627bb1259/" target="_blank"
+                  class="me-4 text-reset">
+                  <i class="fa-brands fa-linkedin-in"></i>
+               </a>
+            </p>
+         </div>
+      </section>
+
+      <!-- Section: Footer-innhold -->
+      <section class="Footer-innhold">
+         <div class="container text-center text-md-start mt-5">
+
+            <!-- Midterste rad i footer -->
+            <div class="row mt-3">
+               <!-- Her lager jeg en kollonen som inneholder navn og kort info -->
+               <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                  <!-- Her stpår det navn og kort info -->
+                  <h6 class="text-uppercase fw-bold mb-4">
+                     Benjamin Pedersen
+                  </h6>
+                  <p>Elev på glemmem og web utvikler</p>
+               </div>
+               <!-- Her lager jeg en kollone som inneholer kontakt informasjon -->
+               <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                  <!-- Kontakt informasjon i footer -->
+                  <h6 class="text-uppercase fw-bold mb-4">Kontakt meg</h6>
+                  <p><i class="fas fa-home me-3"></i> Fredrikstad, Norge</p>
+                  <p>
+                     <i class="fas fa-envelope me-3"></i>
+                     <a class="mailto-link" href="mailto:benped2006@icloud.com">benped2006@icloud.com</a>
+                  </p>
+                  <p><i class="fas fa-phone me-3"></i> (+47) 939 47 354
+               </div>
+               <!-- Her lager jeg en kolonne for kartet -->
+               <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                  <!-- her setter jeg inn kartet -->
+                  <div id="map"></div>
+
+               </div>
+            </div>
+         </div>
+      </section>
+
+      <!-- Copyright -->
+      <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+         © 2022 Copyright: Benjamin Pedersen
+      </div>
+      <!-- Copyright -->
+   </footer>
+
+   <script
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCY50Nxl9yzG9KWQS1U1LdhoL8sxIijwEk&callback=initMap&v=weekly"
+      defer>
+      </script>
+
+
+
+
+</body>
+
+</html>
