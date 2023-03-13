@@ -34,6 +34,7 @@ body {
 
 
 
+
 /* ferdigheter */
 
 .skill-row{
@@ -103,3 +104,10 @@ p{
     padding: 0;
     margin: 0;
 }
+
+/* Minispill */
+.minispill-link{
+color: white;
+text-decoration: none;
+}
+

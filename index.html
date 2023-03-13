@@ -15,15 +15,12 @@
    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
     integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous"> -->
    <link rel="stylesheet" href="./css/main.css">
-   <script defer src="https://kit.fontawesome.com/be16f163fe.js" crossorigin="anonymous"></script>
    <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
    <script type="module" src="./js/index.js"></script>
 </head>
 
 <body>
-   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
-      crossorigin="anonymous"></script>
+
 
    <!-- Navbar -->
    <nav class="navbar navbar-expand-md sticky-top bg-dark">
@@ -43,6 +40,8 @@
                   </li>
                   <li><a class="nav-link" href="#Utdanninger">Utdanninger <i
                            class="fa-solid fa-building-columns"></i></a>
+                  </li>
+                  <li><a class="nav-link" href="#Minispill">minispill <i class="fa-solid fa-dice"></i></a>
                   </li>
                </ul>
             </div>
@@ -97,13 +96,13 @@
          <div class="skill-row">
             <!-- Legger til et ikon for illustrasjon av ferdigheten -->
             <a class="icon-link" href="https://www.flaticon.com/free-icons/graphic-design"
-               title="graphic design icons"><img class="code-image-2" src="./img/web-design.png" alt="grafisk design"></a>
+               title="graphic design icons"><img class="code-image-2" src="./img/web-design.png"
+                  alt="grafisk design"></a>
             <h3>Grafisk design</h3>
             <p>Jeg kan lage blant annet designe visittkort og apper med illustartor og jeg kan redigere bilder i
                lightroom
                og
-               photoshop. </p> 
-            <br>                                                                                                         
+               photoshop. </p>
             <hr>
          </div>
       </div>
@@ -222,6 +221,46 @@
             </table>
          </div>
       </section>
+
+      <section class="minispill" id="Minispill">
+         <div id="carouselExampleCaptions" class="carousel slide">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="./img/dice-game.png" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <p><a class="minispill-link" href="./html/dice.html">Spill</a></p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="./img/trommer.png" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <p><a class="minispill-link" href="./html/trommer.html">Spill</a></p>
+                </div>
+              </div>
+              <div class="carousel-item">
+               <img src="./img/simongamebilde.png" class="d.block w-100" alt="">
+                <div class="carousel-caption d-none d-md-block">
+                  <p><a class="minispill-link" href="./html/simon.html">Spill</a></p>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+      </section>
+
+
    </div>
 
    <!-- Footer -->
@@ -301,6 +340,10 @@
       src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCY50Nxl9yzG9KWQS1U1LdhoL8sxIijwEk&callback=initMap&v=weekly"
       defer>
       </script>
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+      crossorigin="anonymous"></script>
+   <script src="https://kit.fontawesome.com/050bb4504d.js" crossorigin="anonymous"></script>
 
 
 
