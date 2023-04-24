@@ -1,7 +1,7 @@
 
 /* Dice game */
 .container {
-    width: 70%;
+    width: 80%;
     margin: auto;
     text-align: center;
   }
@@ -35,8 +35,25 @@
     width: 80%;
   }
   
- 
-  
+ button{
+  font-family: 'Lobster', cursive;
+  border-radius: 12px;
+  font-size: 30px;
+  background-color: #4ECCA3;
+  border: #4ECCA3;
+  margin-bottom: 40px;
+  color: black;
+  box-shadow: #232931;
+ }
+ .lock:hover .icon-lock,
+ .lock .icon-unlock {
+     display: none;
+ }
+ .lock:hover .icon-unlock {
+     display: inline;
+ }
+
+
   /* Footer */
   .mailto-link{
     color: white;
@@ -51,3 +68,4 @@
     padding: 0;
     margin: 0;
 }
+
