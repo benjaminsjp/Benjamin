@@ -1,16 +1,19 @@
-//Fargene på knappene
+//Lagrer fargene på knappene i en variabel
 var buttonColors = ["red", "blue", "green", "yellow"];
 
-//Variabel for hvilken knapp som skal trykkes på
+//Lagrer mønsteret som spilles av
 var gamePattern = [];
 
 //variabel for hvilken knapp som bruker trykker på
 var userClickPattern = [];
 
+//Status på om spillet har startet
 var started = false;
 
+//Hvilken level man er på, skal økes med en hver gang man trykker riktig
 var level = 0;
 
+//en funksjon som starter spillet når man trykker på en knapp
 $(document).keypress(function() {
     if (!started) {
         $("#level.title").text("Level " + level);

@@ -15,9 +15,6 @@ for (var i = 0; i<numberOfDrumsButton; i++){
     });
 }
 
-
-
-
 //keyboard press
 
 document.addEventListener("keypress", function(event) {
